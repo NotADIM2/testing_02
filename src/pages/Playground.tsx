@@ -33,7 +33,7 @@ export function Playground() {
       </Section>
 
       <Section title="ClaimNumber (exercise 2)">
-        <p className="text-ink/60">Not built yet. See README.md.</p>
+        <ClaimNumber value={381} />
       </Section>
 
       <Section title="StepRail (exercise 3)">
