@@ -1,5 +1,6 @@
 import { Dot } from "../components/Dot";
 import { Section } from "../components/Section";
+import { ClaimNumber } from "../components/ClaimNumber";
 
 // A page to see every component in every state. Add each new component here as you build it.
 
@@ -35,7 +36,7 @@ export function Playground() {
       </Section>
 
       <Section title="StepRail (exercise 3)">
-        <p className="text-ink/60">Not built yet. See README.md.</p>
+      <ClaimNumber value={381} />
       </Section>
     </div>
   );
